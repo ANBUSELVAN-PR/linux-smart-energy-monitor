@@ -19,32 +19,8 @@ A Linux systems-programming project combining a Linux kernel character-device dr
 
 ## Architecture
 
-```text
-+------------------------------+
-| Linux Kernel                 |
-| Energy Monitor Driver        |
-| - Character device           |
-| - Workqueue                  |
-| - Mutex and wait queue       |
-| - Simulated readings         |
-+--------------+---------------+
-               |
-               v
-       /dev/energy_monitor
-               |
-               v
-+------------------------------+
-| C++17 Monitoring Application |
-| - poll() and read()          |
-| - Validate measurements      |
-| - Display readings           |
-| - Handle errors              |
-| - CSV logging                |
-+--------------+---------------+
-               |
-               v
-      energy_readings.csv
-```
+<img width="1312" height="1199" alt="image" src="https://github.com/user-attachments/assets/4986687e-9a0f-4150-bcb6-aa88ac9a6164" />
+
 
 ## Requirements
 
