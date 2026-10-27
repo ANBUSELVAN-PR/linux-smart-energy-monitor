@@ -1,0 +1,26 @@
+# Compiled application
+/app/energy_monitor
+
+# Kernel module build artifacts
+*.o
+*.ko
+*.mod
+*.mod.c
+*.mod.o
+*.order
+*.symvers
+Module.symvers
+modules.order
+.*.cmd
+.tmp_versions/
+
+# Generated runtime data
+/energy_readings.csv
+
+# Local backups
+*.bak
+*.bak-*
+
+# Editor and OS files
+*~
+.DS_Store
